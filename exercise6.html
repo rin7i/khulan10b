@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercise 6</title>
   <style>
-    /* Алхам 1-2: үндсэн grid */
     .grid-container {
       display: grid;
       grid-template-columns: repeat(3, 100px);
@@ -21,14 +20,13 @@
       background-color: green;
     }
 
-    /* Алхам 3: дэлгэц 600px-ээс бага болвол gap: 10px */
     @media (max-width: 600px) {
       .grid-container {
         gap: 10px;
       }
     }
 
-    /* Алхам 4: дэлгэц 400px-ээс бага болвол 1 багана болгох */
+
     @media (max-width: 400px) {
       .grid-container {
         grid-template-columns: 1fr;
